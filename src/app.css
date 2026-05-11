@@ -1,0 +1,77 @@
+:root {
+  --color-success: #1D9E75;
+  --color-success-light: #E1F5EE;
+  --color-warning: #E8873A;
+  --color-warning-light: #FFF8F0;
+  --color-danger: #D04040;
+  --color-danger-light: #FAECE7;
+  --color-primary: #378ADD;
+  --color-primary-light: #E6F1FB;
+  --color-gray: #888888;
+  --color-gray-light: #F2F2F2;
+  --color-text: #1a1a1a;
+  --color-text-secondary: #595959;
+  --color-bg: #FFFFFF;
+  --font-family: Arial, Helvetica, sans-serif;
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-round: 50%;
+}
+
+.dark {
+  --color-bg: #121212;
+  --color-text: #f0f0f0;
+  --color-text-secondary: #aaaaaa;
+  --color-gray-light: #2a2a2a;
+  --color-success-light: #0d3326;
+  --color-warning-light: #3a2200;
+  --color-danger-light: #3a1010;
+  --color-primary-light: #0d2440;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  font-family: var(--font-family);
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  transition: background-color 0.2s, color 0.2s;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-family: var(--font-family);
+}
+
+button:focus-visible {
+  outline: 3px solid var(--color-primary);
+  outline-offset: 2px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@keyframes pulse {
+  0%, 100% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.1); opacity: 0.8; }
+}
+
+@keyframes slideDown {
+  from { transform: translateY(-120%); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes pulseDot {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(232, 135, 58, 0.4); }
+  50% { box-shadow: 0 0 0 8px rgba(232, 135, 58, 0); }
+}
