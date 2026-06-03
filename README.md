@@ -416,7 +416,7 @@ PillenApp ist eine webbasierte Zwei-Ansichten-App, die sowohl für die Senior:in
 
 ## 5. Projektorganisation
 
-- **Repository:** Git-Repository, initialisiert auf `main`-Branch
+- **Repository:** https://github.com/enisfarizi/pillapp (`main`-Branch)
 - **Commit-Praxis:** Sprechende Commit-Messages auf Deutsch, ein Commit pro abgeschlossener Funktionseinheit (z. B. «Netlify adapter hinzugefügt», «Projekt initialisiert»)
 - **Projektstruktur:**
   ```
