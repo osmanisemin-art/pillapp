@@ -158,10 +158,10 @@ PillenApp ist eine webbasierte Zwei-Ansichten-App, die sowohl für die Senior:in
 
   **Angehörigen-Flow (Handy-optimiert)**
 
-  | Dashboard | Einstellungen |
-  |:---:|:---:|
-  | ![Dashboard](docs/Dashboard.png) | ![Einstellungen](docs/Einstellungen.png) |
-  | Tagesstatus, manuelle Bestätigung, Undo, Anruf | CRUD-Verwaltung des Medikamentenplans |
+  | Dashboard | Wochenübersicht | Einstellungen |
+  |:---:|:---:|:---:|
+  | ![Dashboard](docs/Dashboard.png) | ![Wochenübersicht](docs/Woche.png) | ![Einstellungen](docs/Einstellungen.png) |
+  | Tagesstatus, manuelle Bestätigung, Undo, Anruf | Wochenhistorie mit Fortschrittsbalken und Farbkodierung | CRUD-Verwaltung des Medikamentenplans |
 
 - **Designentscheidungen:**
   - **Keine externe UI-Bibliothek:** Vollständig mit CSS Custom Properties umgesetzt – gibt maximale Kontrolle über Barrierefreiheit und Grössen
