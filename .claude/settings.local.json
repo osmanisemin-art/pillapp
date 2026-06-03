@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p \"c:\\\\ZHAW\\\\Prototyping\\\\pillapp\\\\evaluation\")",
+      "Bash(Get-ChildItem -Path \"c:\\\\ZHAW\\\\Prototyping\\\\pillapp\" -Depth 2)",
+      "Bash(Select-Object FullName)"
+    ],
+    "additionalDirectories": [
+      "c:\\ZHAW\\Prototyping\\pillapp"
+    ]
+  }
+}
