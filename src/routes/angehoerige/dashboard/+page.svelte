@@ -71,7 +71,10 @@
       <p class="subtitle">Status heute</p>
       {#if eskalationLabel}
         <div class="eskalation-badge" role="alert" aria-live="assertive">
-          {eskalationLabel}
+          <span>{eskalationLabel}</span>
+          <button class="eskalation-anruf" onclick={handleAnruf} aria-label="Jetzt anrufen">
+            📞 Jetzt anrufen
+          </button>
         </div>
       {/if}
     </header>
@@ -167,6 +170,21 @@
     border-radius: var(--radius-sm);
     font-size: 14px;
     font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+  }
+
+  .eskalation-anruf {
+    padding: 4px 10px;
+    background: var(--color-danger);
+    color: white;
+    border-radius: var(--radius-sm);
+    font-size: 13px;
+    font-weight: 600;
+    white-space: nowrap;
+    flex-shrink: 0;
   }
 
   .timeline-section {

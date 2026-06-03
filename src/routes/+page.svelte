@@ -32,6 +32,7 @@
       <div class="card-content">
         <h2 class="card-title">Senior:innen-Ansicht</h2>
         <p class="card-desc">Tablet-Ansicht für die Medikamenten-Bestätigung</p>
+        <p class="card-device">Gerät: Tablet der Senior:in</p>
       </div>
       <span class="card-arrow" aria-hidden="true">→</span>
     </button>
@@ -45,6 +46,7 @@
       <div class="card-content">
         <h2 class="card-title">Angehörigen-Ansicht</h2>
         <p class="card-desc">Handy-Dashboard für pflegende Angehörige</p>
+        <p class="card-device">Gerät: Handy der Angehörigen</p>
       </div>
       <span class="card-arrow" aria-hidden="true">→</span>
     </button>
@@ -152,6 +154,13 @@
   .card-desc {
     font-size: 14px;
     color: var(--color-text-secondary);
+  }
+
+  .card-device {
+    font-size: 12px;
+    color: var(--color-text-secondary);
+    margin-top: 2px;
+    opacity: 0.75;
   }
 
   .card-arrow {

@@ -26,6 +26,10 @@
       Heute {$person.name} erledigt.
     </p>
 
+    <p class="notified" aria-live="polite">
+      ✓ Deine Angehörige wurde benachrichtigt.
+    </p>
+
     {#if $naechsteEinnahme}
       <p class="next-info">
         Nächste Einnahme: {$naechsteEinnahme.zeit} ({$naechsteEinnahme.name})
@@ -93,6 +97,12 @@
   .all-done {
     color: var(--color-success);
     font-weight: 600;
+  }
+
+  .notified {
+    font-size: 18px;
+    color: var(--color-success);
+    font-weight: 500;
   }
 
   .tap-hint {

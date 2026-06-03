@@ -3,7 +3,7 @@
 
   const config = {
     genommen: { label: '✓ genommen', bg: 'var(--color-success-light)', color: 'var(--color-success)' },
-    offen: { label: 'offen', bg: 'var(--color-gray-light)', color: 'var(--color-gray)' },
+    offen: { label: 'ausstehend', bg: 'var(--color-gray-light)', color: 'var(--color-gray)' },
     verpasst: { label: 'verpasst', bg: 'var(--color-danger-light)', color: 'var(--color-danger)' }
   };
 

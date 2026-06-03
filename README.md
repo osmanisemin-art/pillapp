@@ -363,14 +363,14 @@ PillenApp ist eine webbasierte Zwei-Ansichten-App, die sowohl für die Senior:in
 
 - **Abgeleitete Verbesserungen:**
 
-  | Priorität | Massnahme | Issue | Aufwand |
-  |---|---|---|---|
-  | Hoch | «[Name] wurde benachrichtigt ✓» auf Erfolgs-Screen ergänzen | U04 | S |
-  | Hoch | Gerätezuordnung auf Startseite erklären: «Senior-Ansicht → Tablet · Angehörigen-Ansicht → Handy» | U01 | S |
-  | Hoch | «Öffnen»-Button umbenennen («Weiter» / «Pillen nehmen») oder Screens zusammenlegen | U03 | M |
-  | Mittel | «offen» → «ausstehend» im Dashboard | U02 | S |
-  | Mittel | Anruf-Button direkt in Eskalations-Alert integrieren | U05 | S |
-  | Niedrig | Auto-Redirect zur Erinnerung wenn Einnahme fällig | U06 | M |
+  | Priorität | Massnahme | Issue | Aufwand | Status |
+  |---|---|---|---|---|
+  | Hoch | «[Name] wurde benachrichtigt ✓» auf Erfolgs-Screen ergänzen | U04 | S | ✅ umgesetzt |
+  | Hoch | Gerätezuordnung auf Startseite erklären: «Senior-Ansicht → Tablet · Angehörigen-Ansicht → Handy» | U01 | S | ✅ umgesetzt |
+  | Hoch | «Öffnen»-Button umbenennen («Pillen nehmen») | U03 | M | ✅ umgesetzt |
+  | Mittel | «offen» → «ausstehend» im Dashboard | U02 | S | ✅ umgesetzt |
+  | Mittel | Anruf-Button direkt in Eskalations-Alert integrieren | U05 | S | ✅ umgesetzt |
+  | Niedrig | Auto-Redirect zur Erinnerung wenn Einnahme fällig | U06 | M | offen |
 
 ---
 
@@ -479,5 +479,5 @@ Qualitätssicherung: Jeder generierte Code wurde im Browser getestet und auf Ver
   - Netlify Adapter: https://kit.svelte.dev/docs/adapter-netlify
   - CSS Custom Properties (MDN): https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties
 
-- **Testskript & Materialien:** *(nach Testdurchführung verlinken)*
-- **Rohdaten/Auswertung:** *(nach Testdurchführung verlinken)*
+- **Testskript & Materialien:** Szenario- und Aufgabenbeschreibung ist in Kap. 3.5 (Aufgaben/Szenarien) vollständig inline dokumentiert; kein separates externes Dokument vorhanden.
+- **Rohdaten/Auswertung:** Beobachtungen, Issue Map und Hypothesen-Check sind in Kap. 3.5 (Kennzahlen & Beobachtungen) vollständig inline dokumentiert.

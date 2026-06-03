@@ -71,7 +71,7 @@
         onclick={() => goto('/senior/bestaetigung')}
         aria-label={`Einnahme ${$naechsteEinnahme.name} bestätigen`}
       >
-        Öffnen
+        Pillen nehmen
       </button>
     {:else}
       <button
